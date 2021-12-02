@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 
+import Header from '../components/header/index'
 const Home: NextPage = () => {
   return (
     <>
@@ -8,7 +9,7 @@ const Home: NextPage = () => {
         <title>Next Auth App</title>
       </Head>
 
-        <h2>Auth Application</h2>
+      <Header />
     </>
   )
 }

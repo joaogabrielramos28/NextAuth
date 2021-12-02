@@ -9,7 +9,9 @@
 
 :root{
     --white:#FFFFFF;
-
+    --gray-300: #a8a8b3;
+    --gray-800: #29292e;
+    --gray-850: #1f2729;
     --grey-900:#121214;
 
     --yellow-500:#eba417;
@@ -33,7 +35,7 @@ body{
 }
 
 body,input,button{
-    font: 400 1rem 'Roboto',sans-serif;
+    font: 400 .8rem 'Roboto',sans-serif;
 }
 
 
